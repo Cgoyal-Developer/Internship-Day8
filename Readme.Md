@@ -96,4 +96,16 @@ Run Jenkins using Docker:
  1. Click Build Now.
  2. Check Console Output.
  3. You should see: ✅ BUILD SUCCESS
- 
+
+
+## 📸 Screenshots  
+
+- **Jenkins Build Success**  
+  ![Build Success](https://github.com/USERNAME/hello-java-maven/blob/main/build-success.png)  
+
+- **Jenkins Workspace – `ls` Command Output**  
+  ![Workspace ls](https://github.com/USERNAME/hello-java-maven/blob/main/workspace-ls.png)  
+
+- **Target Folder Showing JAR File**  
+  ![Target JAR](https://github.com/USERNAME/hello-java-maven/blob/main/target-jar.png)  
+
