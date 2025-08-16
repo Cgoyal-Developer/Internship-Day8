@@ -73,7 +73,7 @@ Run Jenkins using Docker:
 3. Ensure JDK installation (JDK 8 or 11) is also added.
 👉 Concept: Jenkins needs to know where Maven & JDK are installed to build projects.
 
----
+----
 
 ## Create a Jenkins Freestyle Job
 1. Click New Item → Freestyle Project.
