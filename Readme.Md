@@ -48,3 +48,52 @@ It is your **first step into CI/CD (Continuous Integration / Continuous Delivery
 ---
 
 ## 📦 Repository Structure  
+hello-java-maven/
+│── src/
+│ └── main/
+│ └── java/
+│ └── HelloWorld.java
+│── pom.xml
+
+---
+
+## Start Jenkins
+Run Jenkins using Docker:
+1. Access Jenkins: http://localhost:8080
+2. Unlock Jenkins (password from logs).
+3. Install Suggested Plugins.
+👉 Concept: Jenkins runs on port 8080 and manages automation jobs
+
+---
+
+## Configure Maven in Jenkins
+
+1. Go to Manage Jenkins → Global Tool Configuration.
+2. Add Maven installation (e.g., Maven 3.8.6).
+3. Ensure JDK installation (JDK 8 or 11) is also added.
+👉 Concept: Jenkins needs to know where Maven & JDK are installed to build projects.
+
+---
+
+## Create a Jenkins Freestyle Job
+1. Click New Item → Freestyle Project.
+2. Name: hello-java-maven.
+3. In Source Code Management:
+   -If using GitHub repo → Add repo URL.
+   -If using local project → Skip Git.
+4. In Build Section:
+   -Select Invoke top-level Maven targets.
+   -Enter Goal: clean package
+5. In Post-build Actions Section:
+   -Select Archive the artifacts
+   -Enter Files to archive: target/*.jar
+6. Save the job.
+👉 Concept: A Freestyle Job lets you define simple build steps.
+
+---
+
+## Run the Build
+ 1. Click Build Now.
+ 2. Check Console Output.
+ 3. You should see: ✅ BUILD SUCCESS
+ 
