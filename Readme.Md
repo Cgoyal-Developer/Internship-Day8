@@ -101,11 +101,11 @@ Run Jenkins using Docker:
 ## 📸 Screenshots  
 
 - **Jenkins Build Success**  
-  ![Build Success](https://github.com/USERNAME/hello-java-maven/blob/main/build-success.png)  
+  ![Build Success](https://github.com/USERNAME/Internship-Day8/blob/main/build-success.png)  
 
 - **Jenkins Workspace – `ls` Command Output**  
-  ![Workspace ls](https://github.com/USERNAME/hello-java-maven/blob/main/workspace-ls.png)  
+  ![Workspace ls](https://github.com/USERNAME/Internship-Day8/blob/main/workspace-ls.png)  
 
 - **Target Folder Showing JAR File**  
-  ![Target JAR](https://github.com/USERNAME/hello-java-maven/blob/main/target-jar.png)  
+  ![Target JAR](https://github.com/USERNAME/Internship-Day8/blob/main/target-jar.png)  
 
